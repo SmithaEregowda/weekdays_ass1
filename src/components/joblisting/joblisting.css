@@ -1,0 +1,10 @@
+.jobListWrapper{
+    padding: 2rem 0rem;
+    padding-left: 1rem;
+}
+
+.jobListing{
+    display: flex;
+    grid-gap: 1rem;
+    flex-wrap: wrap;
+}

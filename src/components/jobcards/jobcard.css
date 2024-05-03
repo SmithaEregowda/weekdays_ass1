@@ -1,0 +1,12 @@
+.jobCard{
+    display: grid;
+    width: 18rem;
+    height: 23rem;
+    border: 1px solid #d7d7d7;
+    border-radius: 8px !important;
+    overflow: scroll;
+}
+.jobdesc{
+    max-height: 13rem;
+    overflow: auto;
+}
