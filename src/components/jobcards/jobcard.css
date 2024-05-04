@@ -1,12 +1,87 @@
 .jobCard{
     display: grid;
-    width: 18rem;
-    height: 23rem;
+    width: 20rem;
+    height: 30rem;
     border: 1px solid #d7d7d7;
     border-radius: 8px !important;
     overflow: scroll;
 }
+
+.jobRole{
+    text-transform: capitalize;
+    color: rgb(13, 12, 12);
+    font-size: 1.2rem;
+    padding: 0 0 0.2rem;
+}
+.minexp{
+    padding: 0.2rem 0; 
+}
+.jobLoc{
+    text-transform: capitalize;
+    color: rgb(13, 12, 12);
+    font-size: 0.9rem;
+    padding: 0 0 0.2rem; 
+}
+
+.expsalCont{
+    padding: 0.5rem 0;
+    display: flex;
+    grid-gap: 0.2rem;
+    color: #828282;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.expCont{
+    padding: 0.5rem 0;
+}
+
+.mintitle{
+    color: #888383;
+    font-size: 1rem;
+    font-weight: 400; 
+    text-transform: capitalize;
+}
+
+.desctitle{
+    text-transform: capitalize;
+    color: rgb(13, 12, 12);
+    font-size: 1.2rem;
+    padding: 0 0 0.2rem;
+    font-weight: 400; 
+}
+
+.descsubtitle{
+    text-transform: capitalize;
+    color: rgb(13, 12, 12);
+    font-size: 1rem;
+    padding: 0 0 0.2rem;
+    font-weight: 600; 
+}
+
 .jobdesc{
-    max-height: 13rem;
-    overflow: auto;
+    position: relative;
+    height: 14rem;
+}
+
+.desc{
+    max-height: 10rem;
+    overflow: hidden;
+    padding: 0.2rem 0;
+    display: grid;
+    /* opacity: .5;
+    position: absolute;
+    width: 100%;
+    z-index: 2; */
+}
+
+.viewJob{
+    position: absolute;
+    top: 12.5rem;
+    left: 5rem;
+    z-index: 3;
+}
+
+.btnActions{
+    display: grid;
+    grid-gap: 0.7rem;
 }
